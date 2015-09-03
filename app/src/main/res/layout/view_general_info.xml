@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/view_info_about_party">
+
+    <!-- Foundation -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/margin_top_party_general_section_item"
+        android:layout_marginLeft="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginRight="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginBottom="@dimen/margin_party_general_section_sub_item"
+        android:text="@string/party_details_section_general_foundation_date"/>
+
+    <TextView
+        android:id="@+id/general_section_foundation_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginRight="@dimen/margin_left_right_party_general_section_item"
+        android:text="@string/party_details_section_general_foundation_date"/>
+
+    <!-- Address -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/margin_top_party_general_section_item"
+        android:layout_marginLeft="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginRight="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginBottom="@dimen/margin_party_general_section_sub_item"
+        android:text="@string/party_details_section_general_address"/>
+
+    <TextView
+        android:id="@+id/general_section_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginRight="@dimen/margin_left_right_party_general_section_item"
+        android:text="@string/party_details_section_general_foundation_date"/>
+
+    <!-- Offices -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/margin_top_party_general_section_item"
+        android:layout_marginLeft="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginRight="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginBottom="@dimen/margin_party_general_section_sub_item"
+        android:text="@string/party_details_section_general_count_offices"/>
+
+    <TextView
+        android:id="@+id/general_section_count_offices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginRight="@dimen/margin_left_right_party_general_section_item"
+        android:text="@string/party_details_section_general_foundation_date"/>
+
+    <!-- Phonw numbers -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/margin_top_party_general_section_item"
+        android:layout_marginLeft="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginRight="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginBottom="@dimen/margin_party_general_section_sub_item"
+        android:text="@string/party_details_section_general_phone_numbers"/>
+
+    <TextView
+        android:id="@+id/general_section_phone_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginRight="@dimen/margin_left_right_party_general_section_item"
+        android:text="@string/party_details_section_general_foundation_date"/>
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/margin_top_party_general_section_item"
+        android:layout_marginLeft="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginRight="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginBottom="@dimen/margin_party_general_section_sub_item"
+        android:text="@string/party_details_section_general_description"/>
+
+    <TextView
+        android:id="@+id/general_section_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="@dimen/margin_left_right_party_general_section_item"
+        android:layout_marginRight="@dimen/margin_left_right_party_general_section_item"
+        android:text="@string/party_details_section_general_foundation_date"/>
+
+</LinearLayout>

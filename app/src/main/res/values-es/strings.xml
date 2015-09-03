@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Words -->
+    <string name="values_continue" >CONTINUAR</string>
+    <string name="cancel">CANCEL</string>
+    <string name="accept">ACEPTAR</string>
+
+    <!-- Action bar - Actions -->
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="party_info_option">Perfil del Partido</string>
+    <string name="party_discard_list">Descartar Listado</string>
+    <string name="dlg_unhide_list_title">Desea reestablecer todos los partidos?</string>
+    <string name="info_values">Las valoraciones son importantes en Votopilas.¿Te interesa ver solamente las de las personas reconocidas o las opiniones de todos? Tu eliges.</string>
+
+    <!-- Dialogs -->
+    <string name="dlg_hide_list_title">Ocultar Listado</string>
+    <string name="dlg_hide_party_title">Ocultar Partido</string>
+    <string name="dlg_hide_msg">Podras restablecer los %s ocultos desde el menu.</string>
+
+    <!-- LogIn -->
+    <string name="login_omit">Omitir</string>
+    <string name="login_with_fb">LogIn con Facebook</string>
+    <string name="login_dialog_message">Haz que tu voto valga, ¡haz un voto informado! Si deseas ayudar a los demas puedes hacer LogIn y dejar tu propia valoracion de los candidatos.</string>
+    <string name="login_dialog_title">¿Hacer LogIn con Facebook?</string>
+    <string name="login_dialog_try_again">Error, por favor intente de nuevo.</string>
+
+    <!-- Party Details -->
+    <string name="party_details_value">VALORACION DEL PARTIDO (PONDERADO)</string>
+    <string name="party_details_section_general">General</string>
+    <string name="party_details_section_general_foundation_date">FECHA DE FUNDACION</string>
+    <string name="party_details_section_general_address">DIRECCION</string>
+    <string name="party_details_section_general_count_offices">NUMERO DE OFICINAS</string>
+    <string name="party_details_section_general_phone_numbers">TELEFONOS</string>
+    <string name="party_details_section_general_description">DESCRIPCCION</string>
+    <string name="party_details_section_transparency">Transparencia</string>
+    <string name="party_details_section_transparency_how_many_info">¿Que tanta informaci&#243;n comparte el partido con el publico?</string>
+    <string name="party_details_no_available">No disponible</string>
+
+    <!-- Drawer ListName -->
+    <string name="drawer_list_item_search">Buscar</string>
+    <string name="drawer_list_item_choose_value">Elegir Valoraci&#243;n</string>
+    <string name="drawer_list_item_restore_parties">Ocultar/Restaurar Partidos</string>
+    <string name="drawer_list_item_restore_list">Ocultar/Restaurar Listados</string>
+    <string name="drawer_list_item_parties">Partidos</string>
+    <string name="drawer_list_item_about">Acerca de...</string>
+    <string name="drawer_list_item_logout">Cerrar Sessi&#243;n</string>
+    <string name="drawer_list_item_login">Iniciar Session</string>
+    <string name="drawer_header_anonymous">Visitante</string>
+
+    <string name="title_activity_main">Votopilas</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="title_activity_politician">PoliticianActivity</string>
+    <string name="charge">Cargo</string>
+    <string name="list">Listado</string>
+    <string name="lists">Listados</string>
+    <string name="party_change">Cambio de Partido</string>
+    <string name="title_activity_select_values">Valoraciones</string>
+    <string name="title_activity_about">Acerca de</string>
+
+    <string name="title_activity_rating">RatingActivity</string>
+
+    <!-- About -->
+    <string name="about_txt_title">Por sus frutos los conocerán</string>
+    <string name="about_txt">Votopilas es una herramienta para que la gente comparta lo que se sabe sobre quienes se presentan como candidatos y para comparar listados de candidatos, ya que no se puede votar directamente por una persona.
+        \n\nEs es una aplicación de código libre para Android y iOS.  El código se puede descargar de https://github.com/pabl0rg/votopilas.  Para obtener acceso a escribir en la base de datos, favor abrir un issue en github.</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_restore">Restore</string>
+
+
+    <!-- Select Values Activity -->
+    <string name="user_vals_name">Valoraciones de Usuarios</string>
+    <string name="title_activity_search">Busqueda</string>
+    <string name="select_at_least_one_value">Seleccione al menos una persona o institución.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Politician List -->
+    <string name="alternate">Suplente</string>
+    <string name="choose_valuation">Elegir Valoración</string>
+    <string name="restore_parties">Restablecer Partidos Descartados</string>
+
+    <!-- Political Experience -->
+    <string name="time">Tiempo</string>
+
+</resources>

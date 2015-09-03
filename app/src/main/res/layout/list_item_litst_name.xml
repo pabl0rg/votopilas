@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/label_list_name"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="left|center_vertical"
+    android:lines="1"
+    android:ellipsize="end"
+    android:textColor="@color/progress_star"
+    android:textSize="18sp"
+    android:background="@drawable/selectable_item"
+    android:clickable="true"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    />

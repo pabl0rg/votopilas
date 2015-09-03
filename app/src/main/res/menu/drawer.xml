@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drawer_list_item_search"
+        android:title="@string/drawer_list_item_search"/>
+
+    <item
+        android:id="@+id/drawer_list_item_choose_value"
+        android:title="@string/drawer_list_item_choose_value"/>
+
+    <item
+        android:id="@+id/drawer_list_item_restore_parties"
+        android:title="@string/drawer_list_item_restore_parties"/>
+
+    <item
+        android:id="@+id/drawer_list_item_restore_lists"
+        android:title="@string/drawer_list_item_restore_list"/>
+
+    <item
+        android:id="@+id/drawer_list_item_about"
+        android:title="@string/drawer_list_item_about"/>
+
+    <item
+        android:id="@+id/drawer_list_item_logout_login"
+        android:title="@string/drawer_list_item_logout"/>
+
+</menu>

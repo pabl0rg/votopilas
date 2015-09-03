@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crealoya.votopilas.ui.activity.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <!-- TODO: add to dimen file -->
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:scaleType="fitCenter"
+            android:src="@drawable/votopilas_logo"/>
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_txt_title"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_below="@android:id/icon"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/about_txt"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_below="@android:id/text1"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/inc_toolbar" />
+
+</RelativeLayout>

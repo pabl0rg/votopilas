@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crealoya.votopilas.ui.fragment.PartyPoliticianListFragment">
+
+    <LinearLayout
+        android:id="@+id/party_info_container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/party_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/party_info_option"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:padding="@dimen/padding_textview_message"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:textColor="@android:color/white"
+            android:background="@color/view_info_about_party"/>
+
+        <TextView
+            android:id="@+id/ic_remove_party"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/party_discard_list"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:clickable="true"
+            android:padding="@dimen/padding_textview_message"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:textColor="@android:color/white"
+            android:background="@color/view_info_about_party"/>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/party_info_container"
+        android:paddingTop="0dp"
+        />
+
+
+    <ProgressBar
+        android:id="@android:id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable ="@drawable/progress_bar_style"
+        style="@android:style/Widget.ProgressBar.Large"/>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No hay información disponible"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

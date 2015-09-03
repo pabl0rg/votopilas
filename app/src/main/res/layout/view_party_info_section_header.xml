@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <!-- TODO: add dimens to dimens file -->
+
+    <ImageView
+        android:id="@+id/expandable_header_section_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_hardware_keyboard_arrow_down"/>
+
+    <TextView
+        android:id="@+id/expandable_header_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/expandable_header_section_arrow"
+        android:layout_marginRight="15dp"
+        android:textSize="@dimen/abc_text_size_large_material"/>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <dimen name="padding_textview_message">15dp</dimen>
+    <dimen name="maring_politician_row_list">5dp</dimen>
+    <dimen name="margin_top_politician_row_item_separator">2dp</dimen>
+    <dimen name="margin_top_section_header">20dp</dimen>
+
+    <!-- Party details -->
+    <dimen name="margin_top_party_general_section_item">15dp</dimen>
+    <dimen name="margin_left_right_party_general_section_item">10dp</dimen>
+    <dimen name="margin_party_general_section_sub_item">5dp</dimen>
+    <dimen name="margin_party_expandable_top">25dp</dimen>
+
+    <dimen name="rating_star_list_politician_height">25dp</dimen>
+    <dimen name="default_margin_text_view">10dp</dimen>
+
+    <dimen name="view_pager_list_top_padding_page">10dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+
+    <!-- Text size -->
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_big">20sp</dimen>
+    <dimen name="text_size_huge">36sp</dimen>
+
+    <dimen name="elevation_low">9dp</dimen>
+    <dimen name="elevation_high">12dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="fab_compat_margin">0dp</dimen>
+
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_avatar_size">40dp</dimen>
+    <dimen name="large_margin">16dp</dimen>
+</resources>

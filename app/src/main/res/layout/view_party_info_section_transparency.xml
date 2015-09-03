@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/view_info_about_party">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RatingBar
+            android:id="@+id/rating_politician"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/rating_star_list_politician_height"
+            android:numStars="5"
+            android:isIndicator="true"
+            android:layout_below="@id/politician_value_info_text"
+            android:layout_marginTop="@dimen/margin_top_politician_row_item_separator"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:progressDrawable="@drawable/rating_bar_layerlist"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:text="@string/party_details_section_transparency_how_many_info"
+        android:layout_margin="@dimen/default_margin_text_view"/>
+
+    <!-- Facebook Row -->
+    <RelativeLayout
+        android:id="@+id/facebook_row"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/listPreferredItemHeight"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/facebook_external"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_vp_abrir_otra_aplicacion"/>
+
+        <ImageView
+            android:id="@+id/facebook_icon"
+            android:layout_width="?attr/listPreferredItemHeight"
+            android:layout_height="?attr/listPreferredItemHeight"
+            android:src="@drawable/ic_vp_facebook"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/facebook_row_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/facebook_icon"
+            android:gravity="center_vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/facebook_text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Facebook"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:layout_weight="1"/>
+
+            <!--TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Perfil Completo"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/abc_text_size_small_material"
+                android:layout_weight="1"/-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Twitter Row -->
+    <RelativeLayout
+        android:id="@+id/twitter_row"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/listPreferredItemHeight"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/twitter_external"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_vp_abrir_otra_aplicacion"/>
+
+        <ImageView
+            android:id="@+id/twitter_icon"
+            android:layout_width="?attr/listPreferredItemHeight"
+            android:layout_height="?attr/listPreferredItemHeight"
+            android:src="@drawable/ic_vp_twitter"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/twitter_row_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/twitter_icon"
+            android:gravity="center_vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/twitter_text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Twitter"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:layout_weight="1"/>
+
+            <!--TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Perfil Completo"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/abc_text_size_small_material"
+                android:layout_weight="1"/-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Pagina Web Row -->
+    <RelativeLayout
+        android:id="@+id/web_row"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/listPreferredItemHeight"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/web_external"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_vp_abrir_otra_aplicacion"/>
+
+        <ImageView
+            android:id="@+id/web_page_icon"
+            android:layout_width="?attr/listPreferredItemHeight"
+            android:layout_height="?attr/listPreferredItemHeight"
+            android:src="@drawable/ic_vp_web"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/web_page_row_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/web_page_icon"
+            android:gravity="center_vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/web_text"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Pagina Web"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:layout_weight="1"/>
+
+            <!--TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Perfil Completo"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/abc_text_size_small_material"
+                android:layout_weight="1"/-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

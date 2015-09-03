@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App base colors -->
+    <color name="primary">#033398</color>
+    <color name="primary_dark">#033398</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="accent_translucent">#E3F2FD</color>
+    <color name="accent">#FF9901</color>
+
+    <color name="view_info_about_party">#3398FF</color>
+    <color name="nav_view_header">#3398FF</color>
+    <color name="values_continue_txt">#3398FF</color>
+
+    <color name="progress_star">#3398FF</color>
+    <color name="progress_end">#70b6ff</color>
+
+    <color name="green_settings">#34D758</color>
+
+</resources>
